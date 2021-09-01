@@ -98,21 +98,32 @@ modalCloses.forEach((modalCLose) => {
 
 
 /* ================================== PORTFOLIO SWIPER ======================================== */
-let swiper = new Swiper(".mySwiper", {
+let swiperPortfolio = new Swiper(".portfolio__container", {
     cssMode: true,
     loop: true,
-    
+
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
     pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+        el: ".swiper-pagination",
+        clickable: true,
     },
     mousewheel: true,
     keyboard: true,
-  });
+});
 
 
 /* ================================== TESTIMONAL ======================================== */
+let swiperTestimonial = new Swiper(".testimonial__container", {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 50,
+
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+    }
+});
