@@ -340,12 +340,12 @@ img {
   transition: 0.3s;
 }
 
-.button--white{
+.button--white {
   background-color: #fff;
   color: var(--first-color);
 }
 
-.button--white:hover{
+.button--white:hover {
   background-color: #fff;
 }
 
@@ -756,12 +756,7 @@ img {
   /* right: -0.5rem; */
 }
 
-/* .swiper-container-horizontal > .swiper-pagination-bullets {
-  margin-bottom: -2.5rem;
-} */
-
-.swiper-horizontal > .swiper-pagination-bullets {
-  margin: 0 4px;
+.swiper-pagination-portfolio {
   margin-bottom: -2.5rem;
 }
 
@@ -775,75 +770,73 @@ img {
   outline: none;
 }
 
-
 /* ====================================== PROJECT IN MIND ====================================== */
 
-.project{
+.project {
   text-align: center;
 }
 
-.project__bg{
+.project__bg {
   background-color: var(--first-color);
   padding-top: 3rem;
 }
 
-.project__title{
+.project__title {
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-0-75);
 }
 
-.project__description{
+.project__description {
   margin-bottom: var(--mb-1-5);
 }
 
 .project__title,
-.project__description{
+.project__description {
   color: #fff;
 }
 
-.project__img{
+.project__img {
   width: 232px;
   justify-self: center;
 }
 
-
 /* ====================================== TESTIMONIAL ====================================== */
 
 .testimonial__data,
-.testimonial__header{
+.testimonial__header {
   display: flex;
 }
 
-.testimonial__data{
+.testimonial__data {
   justify-content: space-between;
   margin-bottom: var(--mb-1);
 }
 
-.testimonial__img{
+.testimonial__img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   margin-right: var(--mb-0-75);
 }
 
-.testimonial__name{
+.testimonial__name {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
 }
 
-.testimonial__client{
+.testimonial__client {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
 
-.testimonial__description{
+.testimonial__description {
   margin-bottom: var(--mb-2-5);
 }
 
-.testimonial__icon--star{
+.testimonial__icon--star {
   color: var(--first-color);
 }
 
-.swiper-container .swiper-pagination-testimonial{
-    bottom: 0;
+.swiper-container .swiper-pagination-testimonial {
+  bottom: 0;
 }
