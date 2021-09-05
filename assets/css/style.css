@@ -1197,7 +1197,7 @@ img {
   }
 
   .about__img {
-    width: 350px;
+    width: 250px;
   }
 
   .about__description {
@@ -1304,6 +1304,11 @@ img {
 
   .home__social {
     transform: translateX(-6rem);
+  }
+
+  .about__img {
+    margin-top: 2%;
+    width: 275px;
   }
 
   .services__container {
