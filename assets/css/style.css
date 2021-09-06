@@ -1138,6 +1138,7 @@ img {
   }
 }
 
+ /* 768 PX */
 @media screen and (min-width: 768px) {
   .container {
     margin-left: auto;
@@ -1245,7 +1246,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(2, 218px);
     justify-content: center;
   }
 
@@ -1332,7 +1333,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 238px);
+    grid-template-columns: repeat(2, 238px);
   }
 
   .portfolio__content {
