@@ -510,6 +510,10 @@ img {
   background-color: var(--first-color);
 }
 
+.skills__angular {
+  width: 75%;
+}
+
 .skills__html {
   width: 90%;
 }
@@ -522,8 +526,16 @@ img {
   width: 60%;
 }
 
-.skills__angular {
-  width: 75%;
+.skills__bootstrap {
+  width: 70%;
+}
+
+.skills__less {
+  width: 85%;
+}
+
+.skills__sass {
+  width: 85%;
 }
 
 .skills__java {
@@ -534,24 +546,32 @@ img {
   width: 70%;
 }
 
-.skills__node {
+/* .skills__node {
   width: 50%;
 }
 
 .skills__firebase {
   width: 55%;
-}
+} */
 
-.skills__figma {
+.skills__sql {
   width: 70%;
 }
 
-.skills__sketch {
+.skills__cpp {
   width: 80%;
 }
 
-.skills__photoshop {
-  width: 85%;
+.skills__c {
+  width: 75%;
+}
+
+.skills__maven {
+  width: 60%;
+}
+
+.skills__git {
+  width: 80%;
 }
 
 .skills__close .skills__list {
