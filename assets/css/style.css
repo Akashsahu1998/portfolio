@@ -546,6 +546,10 @@ img {
   width: 70%;
 }
 
+.skills__mysql {
+  width: 70%;
+}
+
 /* .skills__node {
   width: 50%;
 }
@@ -1138,7 +1142,7 @@ img {
   }
 }
 
- /* 768 PX */
+/* 768 PX */
 @media screen and (min-width: 768px) {
   .container {
     margin-left: auto;
