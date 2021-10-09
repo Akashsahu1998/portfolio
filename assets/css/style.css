@@ -558,6 +558,10 @@ img {
   width: 55%;
 } */
 
+.skills__dsa {
+  width: 60%;
+}
+
 .skills__sql {
   width: 70%;
 }
